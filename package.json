@@ -1,0 +1,25 @@
+{
+  "name": "vin-meter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Token and cost meter over local Claude Code transcripts, by day, project, model, tool and task category.",
+  "license": "MIT",
+  "author": "Lashvin Manimaran",
+  "repository": "github:VinVirtual/vin-meter",
+  "homepage": "https://github.com/VinVirtual/vin-meter",
+  "type": "module",
+  "keywords": [
+    "claude-code",
+    "claude-skills",
+    "tokens",
+    "cost",
+    "usage",
+    "transcripts"
+  ],
+  "scripts": {
+    "test": "node --test tests/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
